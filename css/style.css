@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;
+    /* background-color: #008080; */
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 5.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+header .logo_full {
+    height: 50px;
+    margin-top: -35px;
+}
+
+header .logo_full a img {
+    width: 77px;
+    height: 40px;
+}
+
+header .logo_full .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-left: -10px;
+}
+
+header .logo_full .logo:hover {
+    color: #fff;
+}
+
+header .logo_full .logo span {
+    font-size: 2rem;
+    color: #008080;
+}
+
+header .cart_name {
+    font-weight: bold;
+    font-size: 2.7rem;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .7s all ease;
+    -webkit-transition: .7s all ease;
+    -moz-transition: .7s all ease;
+    -ms-transition: .7s all ease;
+    -o-transition: .7s all ease;
+}
+
+header .cart_name:hover {
+    color: #008080;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+header .social_icons,
+footer .social_icons {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+header .social_icons i,
+footer .social_icons i {
+    margin-left: 10px;
+}
+
+.product {
+    height: 77.2vh;
+    width: 100%;
+    background-image: url(../img/online-marketing-services1.jpg);
+    background-size: cover;
+    /* display: none; */
+}
+
+.product .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .container .box {
+    background-color: #fff;
+    width: 300px;
+    height: auto;
+    padding: 1rem 1rem;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 2rem;
+}
+
+.box .input1,
+.box .input2,
+.box .input3 {
+    display: none;
+}
+
+.box .box_content {
+    height: 100px;
+    width: 100%;
+    background-color: #7D29DF;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 75px;
+}
+
+.box .box_content .title {
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.box .box_content .icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 5px;
+    background-color: #fff;
+    border: 5px solid #7D29DF;
+    transition: .7s all ease;
+    -webkit-transition: .7s all ease;
+    -moz-transition: .7s all ease;
+    -ms-transition: .7s all ease;
+    -o-transition: .7s all ease;
+}
+
+.box .box_content .icon:hover {
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+.box .box_price {
+    background-color: #7D29DF;
+    display: inline-block;
+    padding: .3rem 1.7rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.box .btn {
+    background-color: #7D29DF;
+    color: #fff;
+    border: 1px solid #7D29DF;
+    transition: .7s all ease;
+    -webkit-transition: .7s all ease;
+    -moz-transition: .7s all ease;
+    -ms-transition: .7s all ease;
+    -o-transition: .7s all ease;
+}
+
+.box .btn:hover {
+    color: #7D29DF;
+    background-color: #fff;
+}
+
+.cart {
+    position: absolute;
+    right: 1rem;
+    top: 20%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.cart_info table .row1,
+.cart_info table .row2,
+.cart_info table .row3 {
+    display: none;
+    font-weight: 500;
+}
+
+.cart_info table .row4 {
+    font-weight: bold;
+}
+
+td img {
+    height: 50px;
+    width: 50px;
+}
+
+.cart img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.cart span {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: red;
+    height: 25px;
+    border-radius: 50%;
+    width: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.cart_page {
+    display: none;
+    width: 800px;
+    height: auto;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 999;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5.5rem;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+footer p {
+    line-height: 60px;
+    color: #fff;
+}
+
+footer p i {
+    color: #008080;
+}
+
+footer .social_icons i {
+    line-height: 60px;
+    cursor: pointer;
+    transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+}
+
+footer .social_icons i:hover {
+    color: #008080;
+}
+
+.search {
+    width: 250px;
+    height: 40px;
+    position: relative;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.search span {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    cursor: pointer;
+    color: #008080;
+}
